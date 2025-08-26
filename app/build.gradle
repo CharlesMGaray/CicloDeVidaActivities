@@ -1,0 +1,26 @@
+plugins {
+    id("com.android.application")
+}
+
+android {
+    namespace = "com.example.ciclodevidaactivities"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.example.ciclodevidaactivities"
+        minSdk = 24
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_19
+        targetCompatibility = JavaVersion.VERSION_19
+    }
+}
+
+dependencies {
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("com.google.android.material:material:1.12.0")
+}
