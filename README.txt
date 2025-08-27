@@ -1,8 +1,8 @@
-# CICLO DE VIDA ACTIVITIES
+ CICLO DE VIDA ACTIVITIES
 
 Este projeto demonstra o ciclo de vida das **Activities** no Android.
 
-## Como funciona
+ Como funciona
  O app possui **duas telas**: `MainActivity` e `SecondActivity`.
  Cada Activity tem um layout simples (um `TextView` e um `Button`).
  Cada método de ciclo de vida (`onCreate`, `onStart`, `onResume`, `onPause`, `onStop`, `onRestart`, `onDestroy`) está implementado e registra mensagens no **Logcat** usando `Log.i`.
